@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana-lb
+spec:
+  type: LoadBalancer
+  selector:
+    app: grafana
+  ports:
+  - name: http
+    port: 80
+    targetPort: 3000
+  loadBalancerIP: 10.0.0.100
