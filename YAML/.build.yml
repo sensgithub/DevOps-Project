@@ -1,0 +1,41 @@
+image: ubuntu/lts
+packages:
+  - meson
+  - ninja-build
+  - build-essential
+  - libpango1.0-dev
+  - libstartup-notification0-dev
+  - libxcb-ewmh-dev
+  - libxcb-icccm4-dev
+  - libxcb-randr0-dev
+  - libxcb-util0-dev
+  - libxcb-xinerama0-dev
+  - libxcb-xkb-dev
+  - libxcb-xrm-dev
+  - libxcb-cursor-dev
+  - libxkbcommon-dev
+  - libxkbcommon-dev
+  - libxkbcommon-x11-dev
+  - libgdk-pixbuf2.0-dev
+  - check
+  - flex
+  - bison
+  - libglib2.0-dev-bin
+  - doxygen
+sources:
+  - https://sr.ht/~qball/rofi/
+tasks:
+  - setup: |
+     cd rofi
+     meson setup builddir . -Db_lto=true
+  - build: |
+     ninja -C rofi/builddir
+  - test: |
+     ninja -C rofi/builddir test
+  - doxygen: |
+     ninja -C rofi/builddir/ doc/html > doxygen.log 2>&1
+     if [ $(grep -c warnings doxygen.log) -gt 0 ]; then exit 1; fi 
+  - dist: |
+     ninja -C rofi/builddir dist
+artifacts:
+  - rofi/builddir/meson-dist/rofi-1.7.5-dev.tar.xz
