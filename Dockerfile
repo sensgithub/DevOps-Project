@@ -4,7 +4,7 @@ FROM php:8-apache
 RUN docker-php-ext-install pdo pdo_mysql msqli
 
 # Copy files to web server dir
-COPY ./var/www/html/
+COPY . /var/www/html/
 
 # Expose HTTP port
 EXPOSE 80
