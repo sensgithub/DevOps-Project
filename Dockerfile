@@ -1,7 +1,7 @@
 FROM php:8-apache
 
 # Required dependencies
-RUN docker-php-ext-install pdo pdo_mysql msqli
+RUN docker-php-ext-install pdo pdo_mysql mysqli
 
 # Copy files to web server dir
 COPY . /var/www/html/
