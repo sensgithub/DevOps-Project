@@ -52,6 +52,8 @@ CoreDNS is running at https://192.168.49.2:8443/api/v1/namespaces/kube-system/se
 
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 ```
+# Accessing the web app
+
 Using 192.168.49 and port 32103/TCP, we can access the web app:
 
 Main page:
