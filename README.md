@@ -36,7 +36,7 @@ webapp1-5d9dcfbd6d-fvlzz      1/1     Running   0              99m
 ```
 Services:
 ```
-sens@sens-k8s:~$ k get svc
+sens@sens-k8s:~$ kubectl get svc
 NAME         TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
 grafana      NodePort    10.96.21.134    <none>        80:31205/TCP   39h
 kubernetes   ClusterIP   10.96.0.1       <none>        443/TCP        43h
