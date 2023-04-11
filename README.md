@@ -18,8 +18,7 @@ Diagram showcasing the workflow:
 > ✦ Snyk for DevSecOps <br>
 > ✦ GitHub Actions for CI/CD with Snyk <br>
 
-<br>
-Importing database dump to MySQL pod
+Importing database dump to MySQL pod:
 ```
 kubectl -n default exec -i [sql_db] -- mysql -u user -ppassword < ehospital.sql
 ```
