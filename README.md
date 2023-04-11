@@ -19,3 +19,6 @@ Diagram showcasing the workflow:
 > ✦ GitHub Actions for CI/CD with Snyk <br>
 
 
+```
+kubectl -n default exec -i [sql_db] -- mysql -u user -ppassword < ehospital.sql
+```
