@@ -1,6 +1,6 @@
 # DXC Coding Marathon DevOps Project
 
-This is a DevOps based project for a PHP/MySQL/PHPmyAdmin application for a Hospital Management System (**eHospital**).
+This is a DevOps based project for a PHP/MySQL w/ Composer application.
 <br>
 <br>
 Diagram showcasing the workflow:
