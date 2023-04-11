@@ -56,8 +56,4 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 
 Using 192.168.49 and port 32103/TCP, we can access the web app:
 
-Main page:
 ![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/index.png)
-<br>
-Sign up page:
-![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/sign.png)
