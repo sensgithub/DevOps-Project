@@ -41,7 +41,7 @@ spec:
         - name: MYSQL_DATABASE
           value: ehospital
         - name: MYSQL_USER
-          value: root
+          value: db_user
         - name: MYSQL_PASSWORD
           value: password
         args: ["--default-authentication-plugin=mysql_native_password"]
