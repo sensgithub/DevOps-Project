@@ -54,6 +54,6 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 ```
 # Accessing the web app
 
-Using 192.168.49 and the given port from the webapp-sql service, we can access the web app:
+Using the cluster's IP address and the given port from the webapp-sql service, we can access the web app:
 
 ![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/index.png)
