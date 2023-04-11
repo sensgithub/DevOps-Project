@@ -44,3 +44,18 @@ mysql        ClusterIP   None            <none>        3306/TCP       99m
 prometheus   NodePort    10.109.180.17   <none>        80:30194/TCP   39h
 webapp-sql   NodePort    10.102.35.239   <none>        80:32103/TCP   99m
 ```
+Cluster IP:
+```
+sens@sens-k8s:~$ kubectl cluster-info
+Kubernetes control plane is running at https://192.168.49.2:8443
+CoreDNS is running at https://192.168.49.2:8443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+```
+Using 192.168.49 and port 32103/TCP, we can access the web app:
+
+Main page:
+![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/index.png)
+<br>
+Sign up page:
+![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/sign.png)
