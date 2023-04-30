@@ -24,6 +24,16 @@ chmod 755 .terraform/providers/registry.terraform.io/hashicorp/kubernetes/2.19.0
 ```
 Using the command above in case of permission error
 
+# SQL
+
+```
+kubectl config use-context minikube --user=sens
+
+kubectl cp ehospital.sql sqldb-696d7f78d7-4bhwq:/tmp/ --server=https://192.168.49.2:8443 --insecure-skip-tls-verify
+
+kubectl exec sqldb-696d7f78d7-4bhwq -- mysql -u root -ppassword -e "USE ehospital; SOURCE /tmp/ehospital.sql;"
+```
+
 # K8s
 
 Importing database dump to MySQL pod:
