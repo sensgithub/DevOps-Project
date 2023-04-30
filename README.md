@@ -14,13 +14,15 @@ Diagram showcasing the workflow:
 > ✦ Docker <br>
 > ✦ Kubernetes <br>
 > ✦ Terraform <br> 
-```
-chmod 755 .terraform/providers/registry.terraform.io/hashicorp/kubernetes/2.19.0/linux_amd64/terraform-provider-kubernetes_v2.19.0_x5
-the following command might be required for permission errors
-```
 > ✦ Monitoring with Prometheus/Grafana <br>
 > ✦ Snyk for DevSecOps <br>
 > ✦ GitHub Actions for CI/CD with Snyk <br>
+
+# Terraform
+```
+chmod 755 .terraform/providers/registry.terraform.io/hashicorp/kubernetes/2.19.0/linux_amd64/terraform-provider-kubernetes_v2.19.0_x5
+```
+Using the command above in case of permission error
 
 # K8s
 
