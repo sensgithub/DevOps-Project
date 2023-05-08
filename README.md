@@ -6,7 +6,7 @@ This is a DevOps based project for a PHP/MySQL w/ Composer application.
 Diagram showcasing the workflow:
 <br>
 <br>
-![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/diagram-new.png)
+![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/diagram-new-argo.png)
 
 # Technologies
 
