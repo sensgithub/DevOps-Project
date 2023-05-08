@@ -69,8 +69,22 @@ CoreDNS is running at https://192.168.49.2:8443/api/v1/namespaces/kube-system/se
 
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 ```
+# ArgoCD
+
+ArgoCD is a declarative continuous delivery tool that automates deployment and updates to applications running in Kubernetes clusters. It provides a simple and easy-to-use interface for managing deployments, with features such as automated rollbacks and health monitoring.
+
+Workflow:
+
+![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/argocd-test.png)
+
+<p align="center">
+  <img src="https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/argocd.gif" alt="argocd" />
+</p>
+
 # Accessing the web app
 
 Using the cluster's IP address and the given port from the webapp-sql service, we can access the web app:
 
-![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/index.png)
+![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/ehospital.png)
+
+![alt text](https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/result-1.png)
