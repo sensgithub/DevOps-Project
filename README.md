@@ -13,6 +13,7 @@ Diagram showcasing the workflow:
 > ✦ Helm 3 <br>
 > ✦ Docker <br>
 > ✦ Kubernetes <br>
+> ✦ ArgoCD <br>
 > ✦ Terraform <br> 
 > ✦ Monitoring with Prometheus/Grafana <br>
 > ✦ Snyk for DevSecOps <br>
