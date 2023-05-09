@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: webapp1
-        image: sens31/ehospital:a8f49ade84f5018963a2ef2c8854d787650ffa3e
+        image: sens31/ehospital:990421a66686ef7308a3105c18caf754f11b1d0a
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
