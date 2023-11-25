@@ -46,6 +46,10 @@ Workflow:
   <img src="https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/argocd.gif" alt="argocd" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/result.gif" alt="argocd" />
+</p>
+
 # Accessing the web app
 
 Using the cluster's IP address and the given port from the webapp-sql service, we can access the web app:
