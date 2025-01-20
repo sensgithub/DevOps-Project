@@ -35,7 +35,7 @@ kubectl -n default exec -i [sql_db] -- mysql -u root -ppassword < /tmp/ehospital
 ```
 ![alt text]([https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/argocd-test.png])
 
-![alt text]([https://imgur.com/a/BhDOxCp] "Optional title")
+![alt text]([https://imgur.com/a/BhDOxCp] "Optional title") 
 
 # ArgoCD
 
