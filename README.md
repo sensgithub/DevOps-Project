@@ -33,6 +33,7 @@ Importing database dump to MySQL pod:
 ```
 kubectl -n default exec -i [sql_db] -- mysql -u root -ppassword < /tmp/ehospital.sql
 ```
+![alt text]([https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/argocd-test.png](https://imgur.com/a/BhDOxCp))
 
 # ArgoCD
 
