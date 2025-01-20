@@ -33,8 +33,8 @@ Importing database dump to MySQL pod:
 ```
 kubectl -n default exec -i [sql_db] -- mysql -u root -ppassword < /tmp/ehospital.sql
 ```
-![alt text]([https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/argocd-test.png](https://imgur.com/a/BhDOxCp))
-
+![alt text]([https://github.com/sensgithub/DevOps-Project/blob/main/screenshots/argocd-test.png])
+![alt text]([https://imgur.com/a/BhDOxCp])
 # ArgoCD
 
 ArgoCD is a declarative continuous delivery tool that automates deployment and updates to applications running in Kubernetes clusters. It provides a simple and easy-to-use interface for managing deployments, with features such as automated rollbacks and health monitoring.
